@@ -1,0 +1,68 @@
+<html>
+<head>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="jquery.input-ip-address-control-1.0.min.js"></script>
+<script>
+		$(function(){
+		    $('#ipv4').ipAddress();
+		    $('#ipv6').ipAddress({v:6});
+		});
+
+		//mask input type text (ipv4) : ___.___.___.___
+		//mask input type text (ipv6) : ____:____:____:____:____:____:____:____
+	</script>
+<title>jQuery Input IP Address Control Plugin Demo</title>
+</head>
+
+<body>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="http://www.jqueryscript.net/form/Simple-jQuery-IPv4-IPv6-Addresses-Input-Mask-Plugin.html">Download This Plugin</a></li>
+<li><a href="http://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<h1 style="margin:150px auto;">jQuery Input IP Address Control Plugin Demo</h1>
+<form style="width:300px; margin-left:150px;">
+<input type="text" name="ip" id="ipv4" class="form-control">
+<br>
+<br>
+
+<input type="text" name="ipv" id="ipv6" class="form-control"><br>
+<br>
+<input type="button" value="Save" onclick="return false;" class="btn btn-default">
+
+</form>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
